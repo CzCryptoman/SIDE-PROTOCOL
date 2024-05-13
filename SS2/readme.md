@@ -195,6 +195,9 @@ EOF
 sudo systemctl daemon-reload
 sudo systemctl enable sided
 ```
+```
+sudo systemctl restart sided && journalctl -f -u sided
+```
 
 Query Wallet Balance
 ```
